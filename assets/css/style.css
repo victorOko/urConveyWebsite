@@ -49,7 +49,7 @@ section {
   letter-spacing: 1px;
   font-weight: 700;
   margin: 0;
-  color: #4154f1;
+  color: #0cb1ab;
   text-transform: uppercase;
 }
 
@@ -59,7 +59,7 @@ section {
   font-size: 38px;
   line-height: 42px;
   font-weight: 700;
-  color: #012970;
+  color: #065956;
 }
 
 @media (max-width: 768px) {
@@ -130,7 +130,7 @@ section {
   right: 15px;
   bottom: 15px;
   z-index: 99999;
-  background: #4154f1;
+  background: #21a6a2;
   width: 40px;
   height: 40px;
   border-radius: 4px;
@@ -144,7 +144,7 @@ section {
 }
 
 .back-to-top:hover {
-  background: #6776f4;
+  background: #62dad6;
   color: #fff;
 }
 
@@ -225,7 +225,7 @@ section {
   font-family: "Nunito", sans-serif;
   font-size: 16px;
   font-weight: 700;
-  color: #013289;
+  color: #065956;
   white-space: nowrap;
   transition: 0.3s;
 }
@@ -237,11 +237,11 @@ section {
 }
 
 .navbar a:hover, .navbar .active, .navbar li:hover > a {
-  color: #4154f1;
+  color: #21a6a2;
 }
 
 .navbar .getstarted {
-  background: #4154f1;
+  background: #21a6a2;
   padding: 8px 20px;
   margin-left: 30px;
   border-radius: 4px;
@@ -250,7 +250,7 @@ section {
 
 .navbar .getstarted:hover {
   color: #fff;
-  background: #5969f3;
+  background: #62dad6;
 }
 
 .navbar .dropdown ul {
@@ -432,7 +432,7 @@ section {
   margin: 0;
   font-size: 48px;
   font-weight: 700;
-  color: #012970;
+  color: #065956;
 }
 
 .hero h2 {
@@ -448,8 +448,8 @@ section {
   border-radius: 4px;
   transition: 0.5s;
   color: #fff;
-  background: #4154f1;
-  box-shadow: 0px 5px 30px rgba(65, 84, 241, 0.4);
+  background: #21a6a2;
+  box-shadow: 0px 5px 30px #62DAD6;
 }
 
 .hero .btn-get-started span {
@@ -515,7 +515,7 @@ section {
 # About
 --------------------------------------------------------------*/
 .about .content {
-  background-color: #f6f9ff;
+  background-color: #f7ffff;
   padding: 40px;
 }
 
@@ -583,7 +583,7 @@ section {
 
 .values .box h3 {
   font-size: 24px;
-  color: #012970;
+  color: #065956;
   font-weight: 700;
   margin-bottom: 18px;
 }
@@ -645,7 +645,7 @@ section {
 
 .features .feature-box h3 {
   font-size: 18px;
-  color: #012970;
+  color: #065956;
   font-weight: 700;
   margin: 0;
 }
@@ -670,7 +670,7 @@ section {
 }
 
 .features .feture-tabs h3 {
-  color: #012970;
+  color: #065956;
   font-weight: 700;
   font-size: 32px;
   margin-bottom: 10px;
@@ -691,7 +691,7 @@ section {
   text-transform: uppercase;
   font-size: 15px;
   font-weight: 600;
-  color: #012970;
+  color: #065956;
   padding: 12px 0;
   margin-right: 25px;
   margin-bottom: -2px;
@@ -699,22 +699,22 @@ section {
 }
 
 .features .feture-tabs .nav-link.active {
-  color: #4154f1;
-  border-bottom: 3px solid #4154f1;
+  color: #21a6a2;
+  border-bottom: 3px solid #21a6a2;
 }
 
 .features .feture-tabs .tab-content h4 {
   font-size: 18px;
   margin: 0;
   font-weight: 700;
-  color: #012970;
+  color: #065956;
 }
 
 .features .feture-tabs .tab-content i {
   font-size: 24px;
   line-height: 0;
   margin-right: 8px;
-  color: #4154f1;
+  color: #21a6a2;
 }
 
 .features .feature-icons {
@@ -722,7 +722,7 @@ section {
 }
 
 .features .feature-icons h3 {
-  color: #012970;
+  color: #065956;
   font-weight: 700;
   font-size: 32px;
   margin-bottom: 20px;
@@ -1574,7 +1574,7 @@ section {
 
 .contact .info-box h3 {
   font-size: 20px;
-  color: #012970;
+  color: #065956;
   font-weight: 700;
   margin: 20px 0 10px 0;
 }
@@ -2189,19 +2189,19 @@ section {
   font-size: 14px;
 }
 
-/*--------------------------------------------------------------
+/* --------------------------------------------------------------
 # Footer
---------------------------------------------------------------*/
+-------------------------------------------------------------- */
 .footer {
-  background: #f6f9ff;
+  background: #f7ffff;
   padding: 0 0 30px 0;
   font-size: 14px;
 }
 
 .footer .footer-newsletter {
   padding: 50px 0;
-  background: #f6f9ff;
-  border-top: 1px solid #e1ecff;
+  background: #f7ffff;
+  border-top: 1px solid #f7ffff;
 }
 
 .footer .footer-newsletter h4 {
@@ -2367,4 +2367,42 @@ section {
   text-align: center;
   font-size: 13px;
   color: #012970;
+}
+
+/*  Scroll Down Arrow */
+
+.arrow{
+    position: absolute;
+    left: 50%;
+    bottom: 5%;
+    transform: translate(-50%,-50%);
+}
+.arrow span{
+    display: block;
+    width: 30px;
+    height: 30px;
+    border-bottom: 5px solid #06A8FF;
+    border-right: 5px solid #06A8FF;
+    transform: rotate(45deg);
+    margin: -10px;
+    animation: animate 2s infinite;
+}
+.arrow span:nth-child(2){
+    animation-delay: -0.2s;
+}
+.arrow span:nth-child(3){
+    animation-delay: -0.4s;
+}
+@keyframes animate {
+    0%{
+        opacity: 0;
+        transform: rotate(45deg) translate(-20px,-20px);
+    }
+    50%{
+        opacity: 1;
+    }
+    100%{
+        opacity: 0;
+        transform: rotate(45deg) translate(20px,20px);
+    }
 }
